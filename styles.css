@@ -3,9 +3,9 @@ let squares= document.querySelectorAll(".square");
 
 squares.forEach(function(square) {
 	square.addEventListener('mouseover', function(){
-		color:#6F4E37;
+		square.style.backgroundColor= "#6F4E37";
 	});
 	square.addEventListener('mouseout', function() {
-		color:#6F4E37;
+		square.style.backgroundColor= "#E6E6FA";
 	});
 });
